@@ -67,14 +67,3 @@ if (min(MediaGiornalieraHCl$rendGiornaliero) < 100) {
 
 ###################################################################################################
 
-#Invio mail con allegati
-#library(gmailr)
-
-#mime() %>%
-#  to("p.scordino@arpa.piemonte.it") %>%
-#  from("scordino.pasquale@gmail.com") %>%
-#  subject("Controllo dati") %>%
-#  attach_file("MediaGiornalieraHCl.csv") %>%
-#  text_body("Gmailr is a very handy package!") -> text_msg
-
-#send_message(text_msg)        
