@@ -110,8 +110,21 @@ polarPlot(mydata, pollutant = "pm10", type = "weekday")
 # show the 95% confidence intervals in the surface fitting
 polarPlot(mydata, pollutant = "so2", uncertainty = TRUE)
 
+######################################################################################
 
+#Analisi regressione lineare
 
+head(mydata)
 
+plot(mydata$co, mydata$nox)
 
+scatterPlot(mydata, "co", "nox") # funzione di openair
+corPlot(mydata) #funzione di openair
 
+modello<-lm(mydata$nox~mydata$co)
+summary(modello)
+
+plot(mydata$co, mydata$nox)
+abline(modello$coefficients, col="red")
+
+scatterPlot(mydata, "co", "nox", linear = T) # funzione di openair
