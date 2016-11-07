@@ -1,10 +1,7 @@
-#Script Analisi esplorativa dati Alessandria_Asti
-#
-#Corso: Introduzione ad R
-#
-#Alessandria 22 e 24 Novembre 2016 - P Scordino
-
-
+######################################################################################
+#Corso/Addestramento "Introduzione al linguaggio R" - Alessandria 22-24 Novembre 2016
+#Scordino Pasquale
+######################################################################################
 
 #Preparazione aria di lavoro (workspace) e 
 #cartella di lavoro (workdirectory)
@@ -35,7 +32,7 @@ HCl$GiornoW<- wday(HCl$Data, label = TRUE)
 HCl$Ora<- hour(HCl$Data)
 HCl$Minuti<- minute(HCl$Data)
 HCl$Secondi<- second(HCl$Data)
-#within(HCl, rm(Ore))
+HCl<-within(HCl, rm(Ore))
 
 #Ciclo per sostituire le ore in formato da 0 a 24
 #for (i in 1: length(HCl$Ora)) {

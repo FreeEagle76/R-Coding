@@ -1,7 +1,8 @@
 ######################################################################################
-#Questo script dipende dallo script "ScriptRdatasetAlAst.R"
+#Corso/Addestramento "Introduzione al linguaggio R" - Alessandria 22-24 Novembre 2016
+#Scordino Pasquale
 ######################################################################################
-
+#Questo script dipende dallo script "ScriptRdatasetAlAst.R"
 ######################################################################################
 
 #Calcolo rendimento orario e formazione tabelle
@@ -67,3 +68,14 @@ if (min(MediaGiornalieraHCl$rendGiornaliero) < 100) {
 
 ###################################################################################################
 
+#Invio mail con allegati
+#library(gmailr)
+
+#mime() %>%
+#  to("p.scordino@arpa.piemonte.it") %>%
+#  from("scordino.pasquale@gmail.com") %>%
+#  subject("Controllo dati") %>%
+#  attach_file("MediaGiornalieraHCl.csv") %>%
+#  text_body("Gmailr is a very handy package!") -> text_msg
+
+#send_message(text_msg)        

@@ -1,8 +1,7 @@
-#Introduzione all'uso del package "openair" (David Carslaw, King's College London)
-#
-#
-#Alessandria 22 - 24 Novembre 2016
+######################################################################################
+#Corso/Addestramento "Introduzione al linguaggio R" - Alessandria 22-24 Novembre 2016
 #Scordino Pasquale
+######################################################################################
 
 library(openair)
 getwd()
