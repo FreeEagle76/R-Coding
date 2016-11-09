@@ -127,3 +127,4 @@ plot(mydata$co, mydata$nox)
 abline(modello$coefficients, col="red")
 
 scatterPlot(mydata, "co", "nox", linear = T) # funzione di openair
+#######################################################################################

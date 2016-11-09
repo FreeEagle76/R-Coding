@@ -2,6 +2,11 @@
 #Corso/Addestramento "Introduzione al linguaggio R" - Alessandria 22-24 Novembre 2016
 #Scordino Pasquale
 ######################################################################################
+
+
+
+
+######################################################################################
 #Questo script dipende dallo script "ScriptRdatasetAlAst.R"
 ######################################################################################
 

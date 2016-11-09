@@ -34,6 +34,14 @@ a-b
 a*b
 a/b
 a^b
+sqrt(a)                         
+sin(a)  
+cos(a)   
+tan(a)               
+asin(a)  
+acos(a)  
+atan(a)              
+exp(a)                      
 sqrt(a)
 log(a)
 log10(a)
