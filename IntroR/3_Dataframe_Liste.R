@@ -56,8 +56,8 @@ str(list_p)
 
 list_p[2]     #estrazione del secondo oggetto dalla lista
 
-list_p[[2]][1]#estrazione del primo elemento della secondo oggetto della lista
+list_p[[2]][1]#estrazione del primo elemento del secondo oggetto della lista
 
-list_p[[5]][1,] #estrazione della prima rica del quinto oggetto della lista
+list_p[[5]][1,] #estrazione della prima riga del quinto oggetto della lista
 
 ########################################################################################
