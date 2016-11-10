@@ -41,7 +41,7 @@ df.1[df.1$Categorie == "o", ] #estrazione di un sub dataframe dal dataframe df.1
 
 subset(df.1, Categorie == "o")
 
-########################################################################################
+######################################################################################
  
 #Creazione di una lista
 a<-runif(100,1,100)
@@ -56,8 +56,11 @@ str(list_p)
 
 list_p[2]     #estrazione del secondo oggetto dalla lista
 
-list_p[[2]][1]#estrazione del primo elemento del secondo oggetto della lista
+list_p[[2]][1]#estrazione del primo elemento della secondo oggetto della lista
 
 list_p[[5]][1,] #estrazione della prima riga del quinto oggetto della lista
 
-########################################################################################
+######################################################################################
+
+
+

@@ -1,0 +1,6 @@
+setwd("/home/pasquale/Documenti/LavoroArpa/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+source("ScriptRdatasetAlAst.R")
+setwd("/home/pasquale/Documenti/LavoroArpa/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+source("ScriptRrendimento.R")
+setwd("/home/pasquale/Documenti/LavoroArpa/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+source("ScriptOpenAir.R")

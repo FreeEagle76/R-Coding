@@ -84,7 +84,7 @@ for (i in 1:31) {
 df<-do.call(cbind, vec)
 
 
-#Ciclo per trasformare la matrice dei dati orari i un vettore
+#Ciclo per trasformare la matrice dei dati orari in un vettore
 v<- c(NULL)
 for (i in 1:length(df[1,])) {
   v<-append(v, as.vector(df[,i]), after = (24*(i-1)))
