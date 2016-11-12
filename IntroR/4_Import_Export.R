@@ -3,6 +3,11 @@
 #Scordino Pasquale
 ######################################################################################
 
+#Controlloe settaggio directory di lavoro
+getwd()
+setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/ScriptCourseIntroR")
+#setwd("/home/pasquale/Documenti/LavoroARPA/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+
 
 #Importazione file .csv e trasformazione in un dataframe
 
@@ -47,6 +52,7 @@ write.table()
 write.xlsx()
 
 write.xlsx2()
+
 
 #Esportazione grafici come pdf, png, jpeg
 

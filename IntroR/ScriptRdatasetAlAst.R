@@ -97,9 +97,6 @@ MediaGiornaliera <- aggregate(Conc ~ Giorno, HCl, mean)
 SettimanaMedia <- aggregate(Conc ~ GiornoW, HCl, mean)
 MediaMensile<- mean(HCl$Conc)
 
-#Tabelle
-write.csv(GiornoMedio, "GiornoMedioHCl.csv")
-
 #Creazione del dataframe delle medie orarie
 
 start <- as.POSIXct("2016-05-01")
@@ -112,6 +109,15 @@ names(dfMediaOraria)<- c("Date", "ConcHCl")
 
 dfMediaOrariaMatrix<-as.matrix(dfMediaOraria)
 dfMediaOrariaTS<-ts(dfMediaOraria$ConcHCl, frequency = 24, start = 1)
+
+#Tabelle
+
+Dir.Tabelle<-"/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/tabelle/"
+#Dir.Tabelle<-"/home/pasquale/Documenti/LavoroArpa/Data_Analysis/CorsoIntroR/tabelle/"
+
+write.csv(dfMediaOraria, paste0(Dir.Tabelle,"MediaOrariaHCl.csv"), row.names = FALSE)
+write.csv(GiornoMedio, paste0(Dir.Tabelle,"GiornoMedioHCl.csv"), row.names = FALSE)
+
 
 #Elaborazioni grafiche
 

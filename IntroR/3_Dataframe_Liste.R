@@ -3,6 +3,12 @@
 #Scordino Pasquale
 ######################################################################################
 
+
+#Controlloe settaggio directory di lavoro
+getwd()
+setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/ScriptCourseIntroR")
+#setwd("/home/pasquale/Documenti/LavoroARPA/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+
 #Creazione di un dataframe
 
 a<-runif(100,1,100)

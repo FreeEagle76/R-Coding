@@ -7,6 +7,12 @@
 
 ######################################################################################
 
+#Controlloe settaggio directory di lavoro
+getwd()
+setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/ScriptCourseIntroR")
+#setwd("/home/pasquale/Documenti/LavoroARPA/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+
+
 #Ciclo for:
 
 #Questo ciclo mi stampa a video i primi 10 numeri

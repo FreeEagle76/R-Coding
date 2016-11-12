@@ -4,10 +4,13 @@
 ######################################################################################
 
 #Operazioni preliminari
+
 #Controllo e settaggio della directory di lavoro
 getwd()
 dir()
 setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/ScriptCourseIntroR")
+#setwd("/home/pasquale/Documenti/LavoroARPA/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+
 ls() #controllo presenza di oggetti nello spazio di lavoro
 rm(a) # cancellazione di oggetti singoli
 rm(list = c(a,b)) #cancellazione di oggetti multipli

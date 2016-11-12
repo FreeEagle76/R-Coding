@@ -4,8 +4,6 @@
 ######################################################################################
 
 
-
-
 ######################################################################################
 #Questo script dipende dallo script "ScriptRdatasetAlAst.R"
 ######################################################################################
@@ -70,5 +68,22 @@ if (min(MediaGiornalieraHCl$rendGiornaliero) < 100) {
 } else {
   print("Tutto ok!!!")
 }
+
+###################################################################################################
+
+#Creazione dataframe e export tabelle
+
+RendimentiOrariHCl<-subset(MediaOrariaHCl, MediaOrariaHCl$rendOrarioV < 100)
+RendimentiGiornalieriHCl<-subset(MediaGiornalieraHCl, MediaGiornalieraHCl$rendGiornaliero < 100)
+
+
+Dir.Tabelle<-"/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/tabelle/"
+#Dir.Tabelle<-"/home/pasquale/Documenti/LavoroArpa/Data_Analysis/CorsoIntroR/tabelle/"
+
+write.csv(RendimentiOrariHCl, paste0(Dir.Tabelle, 
+         "RendimentiOrariHCl.csv"), row.names = FALSE)
+
+write.csv(RendimentiGiornalieriHCl, paste0(Dir.Tabelle, 
+         "RendimentiGiornalieriHCl.csv"), row.names = FALSE)
 
 ###################################################################################################

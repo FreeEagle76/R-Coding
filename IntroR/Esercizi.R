@@ -1,3 +1,15 @@
+######################################################################################
+#Corso/Addestramento "Introduzione al linguaggio R" - Alessandria 22-24 Novembre 2016
+#Scordino Pasquale
+######################################################################################
+
+
+#Controlloe settaggio directory di lavoro
+getwd()
+setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/ScriptCourseIntroR")
+#setwd("/home/pasquale/Documenti/LavoroARPA/Data_Analysis/CorsoIntroR/ScriptCourseIntroR")
+
+
 #Esercizio 1
 #Si costruisca un vettore x di elementi 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5,
 #5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5 e 10. Per x si calcolino la lunghezza, la
