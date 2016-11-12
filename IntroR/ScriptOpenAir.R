@@ -10,13 +10,13 @@ setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/dataset/d
 
 #Carico dati in R e formazione di dei dataframe
 
-HCl<- read.csv("SM.A.MU.NUOVO.HCL_20160501000100_20160531235900.csv",
+HCl<- read.csv("HCL_052016.csv",
               header = TRUE, sep = ";", dec = ",", stringsAsFactors = FALSE)
 
-HF<- read.csv("SM.A.MU.NUOVO.HF_20160501000100_20160531235900.csv",
+HF<- read.csv("HF_052016.csv",
              header = TRUE, sep = ";", dec = ",", stringsAsFactors = FALSE)
 
-C2F4<- read.csv("SM.A.MU.C2F4_20160501000100_20160531235900.csv",
+C2F4<- read.csv("C2F4_052016.csv",
                 header = TRUE, sep = ";", dec = ",", stringsAsFactors = FALSE)
 
 

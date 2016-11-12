@@ -11,7 +11,7 @@ getwd()
 setwd("/media/pasquale/Volume/DocumentiPasquale/LavoroARPA/CorsoIntroR/dataset/datasetAlessandriaAsti")
 
 #Carico dati in R e formazione di un dataframe
-HCl<-read.csv("SM.A.MU.NUOVO.HCL_20160501000100_20160531235900.csv",
+HCl<-read.csv("HCL_052016.csv",
               header = TRUE, sep = ";", dec = ",", stringsAsFactors = FALSE)
 
 #Carico librerie aggiuntive
