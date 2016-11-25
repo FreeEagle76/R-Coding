@@ -1,0 +1,53 @@
+########################################################################################
+Esercizio 1
+Si costruisca un vettore x di elementi 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5,
+5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5 e 10. Per x si calcolino la lunghezza, la
+somma degli elementi, il prodotto degli elementi.
+
+
+Esercizio 2
+Per il vettore x dell’Esercizio 1 si calcolino la media e la varianza
+mediante l’uso delle funzioni length e sum.
+
+
+Esercizio 3
+Dai vettori
+x<-c(3,5,9,1,2,10,12,24,6),
+y<-c(0.15,0,0.32,0.51,0.18,0.22,0.6,0.98,0.12)
+z<-c(123,415,981,643,1080,89,46,75,910)
+si costruisca una matrice mat che ha come colonne i tre vettori. A
+partire da mat si costruisca una sottomatrice mat1 selezionando solo le
+righe che hanno valore di z maggiore di 900.
+
+#######################################################################################
+#Esercizio 1
+
+# Creare tre vettori numerici a piacere di lunghezza 10.
+# Trasformare i tre vettori in un dataframe per colonne
+# di nome "df.esercizio1".
+# Rinominare le colonne del df.esercizio1 con i seguenti nomi:
+# "PM10", "PM25", "NOX". Inserire una colonna di nome "Coarse"
+# contenente la differenza della colonna PM10 e PM25.
+# Effettuare una statistica descrittiva, creare un plot per
+# ciascuna variabile e infine creare uno scatterplot 
+# delle variabili PM10 e PM25. 
+
+
+#Esercizio 2
+
+# Prendere il dataframe dell'esercizio precedente inserirgli una
+# colonna di nome "Stazione" contenente 3 volte A, 5 volte B
+# e due volte C trasformare questa variabile in variabile di tipo 
+# categoriale. Infine calcolare le medie rispetto alla variabile
+# categoriale "Stazione".
+
+
+#Esercizio 3
+
+# Creare una cartella di lavoro sul desktop, settarla
+# come workdirectory in R. Caricare il dataset BAU.csv ed
+# inserirlo in un dataframe di nome "dfBAU".
+# Analizzare la struttura del dataframe e proporre le modifiche
+# al fine di Calcolare le medie annuali e creare dei boxplot
+# annuali dei dati.
+########################################################################################
